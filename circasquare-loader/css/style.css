@@ -1,0 +1,47 @@
+* {margin: 0px; padding: 0px;}
+body {overflow: hidden; background-color: #512DA8}
+
+#wrapper {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  width: 400px;
+  height: 400px;
+}
+
+.circle {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  border-radius: 100%;
+  width: 200px;
+  height: 200px;
+  border: 5px solid white;
+}
+
+.animation1 {
+  animation: cycle 1s linear 0s infinite alternate;
+}
+.animation2 {
+  animation: cycle 1s linear 0.4s infinite alternate;
+}
+.animation3 {
+  animation: cycle 1s linear 0.8s infinite alternate;
+}
+
+@keyframes cycle {
+  0% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(0.1) rotate(90deg);
+    border: 30px solid white;
+    border-radius: 0%;
+  }
+}

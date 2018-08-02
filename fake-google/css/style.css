@@ -1,0 +1,150 @@
+* {margin: 0px; padding: 0px; font-family: "Roboto", "sans-serif"; font-size: 13px;}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+#header {
+  position: absolute;
+  width: 100%;
+  top: 0px;
+}
+
+#header-right {
+  position: relative;
+  padding: 20px;
+  right: 0px;
+}
+
+#header-right li a {
+  width: 50px;
+  text-align: center;
+  display: block;
+}
+
+#header-right li {
+  float: right;
+  padding-left: 20px;
+}
+
+#user-photo {
+  margin-top: -6px;
+  width: 25px;
+  height: 25px;
+  border: 3px solid black;
+  border-radius: 50%;
+}
+
+#bell {
+  margin-top: -2px;
+  width: 20px;
+  height: 20px;
+}
+
+#grid {
+  margin-top: -5px;
+  width: 25px;
+  height: 25px;
+}
+
+#google-logo {
+  display: block;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  margin-left: -136px;
+}
+
+input {
+  position: absolute;
+  height: 40px;
+  top: 20%;
+  left: 50%;
+  margin-top: 122px;
+  margin-left: -290px;
+  width: 580px;
+  box-shadow: 0px 3px 5px rgb(205, 205, 205);
+  border: 1px solid rgb(214, 212, 212);
+}
+
+#mic-icon {
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  top: 30%;
+  margin-top: 33px;
+  margin-left: 70px;
+  left: 60%;
+}
+
+#button-container {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  margin-top: 192px;
+  margin-left: -152px;
+}
+
+button {
+  border: none;
+  background-color: rgb(232, 232, 232);
+  height: 35px;
+  width: 150px;
+  margin-left: 2px;
+  margin-right: 2px;
+  font-weight: 700;
+  color: rgb(98, 98, 98);
+}
+
+p {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  margin-left: -50px;
+}
+
+#footer {
+  position: absolute;
+  width: 100%;
+  padding-top:10px;
+  bottom: 0px;
+  background-color: rgb(238, 237, 237);
+}
+
+#footer-left {
+  position: relative;
+  left: 0px;
+}
+
+#footer-right {
+  position: relative;
+  right: 0px;
+}
+
+#footer-left li {
+  float: left;
+}
+
+#footer-right li {
+  float: right;
+}
+
+#footer-right li a {
+  padding-right: 20px;
+  padding-bottom: 10px;
+  text-align: center;
+  display: block;
+  color: rgb(98, 98, 98);
+}
+
+#footer-left li a {
+  padding-left: 20px;
+  padding-bottom: 10px;
+  text-align: center;
+  display: block;
+  color: rgb(98, 98, 98);
+}
